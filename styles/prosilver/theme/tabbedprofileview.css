@@ -1,0 +1,131 @@
+#viewprofile div~div.bg2,
+#viewprofile div~div.bg1 {
+	display: none;
+}
+
+.tabstats #tabs {
+	margin-left: 25%;
+}
+
+.tabstats #tabs .tab {
+	float: right;
+}
+
+.tabstats #tabs .tab:first-child {
+	margin-right: 3px;
+}
+
+#viewprofile .tabstats {
+	display: inline-block;
+	width: 100%;
+	float: right;
+}
+
+#viewprofile .bg1 {
+	float: left;
+	display: inline-block;
+	width: 25%;
+	margin-right: 25px;
+}
+
+#viewprofile .left-box {
+	width: 100%;
+	float: none;
+}
+
+#viewprofile .profile-avatar img {
+	display: block;
+	margin: 0 auto;
+}
+
+#viewprofile dl.profile-details dt{
+	margin: 0 0 2px 0;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
+#viewprofile dl.profile-details dd {
+	margin: 0 0 5px 0;
+	width: 100%;
+	text-align: center;
+}
+
+#viewprofile dd select {
+	width: 150px;
+}
+
+#viewprofile .bg2 dl.details dt {
+	width: 40%;
+	text-align: right;
+	float: left;
+}
+
+#viewprofile .bg2 dl.details dd {
+	float: none;
+	width: auto;
+}
+
+#viewprofile .postbody {
+	width: 100%;
+}
+
+#viewprofile .signature > img {
+	max-width: 100% !important;
+}
+
+@media only screen and (max-width: 700px) {
+	.tabstats #tabs {
+		margin-left: 200px;
+	}
+	
+	.tabstats #tabs .tab a {
+		border-radius: 0;
+		margin: 1px 0 0 0;
+	}
+	.tabstats #tabs .tab:first-child {
+		margin-right: -3px;
+	}
+
+	#viewprofile .bg1 {
+		width: 200px;
+		margin: 0;
+		margin-right: 10px;
+	}
+	
+	#viewprofile dl.profile-details dd {
+		margin: 0;
+	}
+	
+	#viewprofile .bg2 dl.details dt {
+		margin: 0 0 2px 0;
+		width: 100%;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	#viewprofile .bg2 dl.details dd {
+		margin: 0 0 5px 0;
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width: 475px) {
+	.tabstats #tabs {
+		margin-left: 100px;
+	}
+
+	#viewprofile .bg1 {
+		width: 150px;
+		margin: 0;
+		margin-right: 10px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.tabstats #tabs {
+		margin-left: 0;
+	}
+}
