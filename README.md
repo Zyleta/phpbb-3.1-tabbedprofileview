@@ -20,7 +20,7 @@
 If You wanna add another element on tab, use event called `memberlist_tabbed_view_tablist_prepend` (if You wanna add a tab on first from right position) or `memberlist_tabbed_view_tablist_append` (first from left position).
 
 To add corectly new tab do it like this:
-```
+```html
 <li id="{NAME_OF_YOUR_TAB}-tab" class="tab">
 	<a href="#tabs" data-subpanel="{NAME_OF_YOUR_TAB}" role="tab" aria-controls="{NAME_OF_YOUR_TAB}">{L_NAME_OF_YOUR_TAB}</a>
 </li>
@@ -35,7 +35,7 @@ That's all what You did here. Now take a look at "Add content".
 If You added tab, You can add a content for it. Place it on event called `memberlist_view_contact_after` or `memberlist_view_contact_before`.
 
 The code should looks like this:
-```
+```html
 <fieldset id="{NAME_OF_YOUR_TAB}" class="fields2" role="tabpanel">
 	<div class="panel bg2 tabstats">
 		<div class="inner">
