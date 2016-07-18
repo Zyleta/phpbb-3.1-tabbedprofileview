@@ -17,7 +17,7 @@
 
 ## Add tabs
 
-If You wanna add another element on tab, use event called `memberlist_tabbed_view_tablist_prepend` (if You wanna add a tab on first from right position) or `memberlist_tabbed_view_tablist_append` (first from left position).
+If You wanna add another element on tab, use event called `tabbed_profile_view_tablist_prepend` (if You wanna add a tab on first from right position) or `tabbed_profile_view_tablist_append` (first from left position).
 
 To add corectly new tab do it like this:
 ```html
