@@ -2,7 +2,7 @@
     "name": "zyleta/tabbedprofileview",
     "type": "phpbb-extension",
     "description": "This extension change profile view to tabs.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "time": "2016-07-17",
     "license": "GPL-2.0",
     "authors": [
