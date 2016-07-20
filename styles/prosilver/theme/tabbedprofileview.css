@@ -19,8 +19,14 @@
 	display: inline-block;
 	width: 100%;
 	float: right;
+	padding: 0;
 }
 
+#viewprofile .tabstats .inner {
+	padding: 5px 10px;
+}
+
+}
 #viewprofile .bg1 {
 	float: left;
 	display: inline-block;
