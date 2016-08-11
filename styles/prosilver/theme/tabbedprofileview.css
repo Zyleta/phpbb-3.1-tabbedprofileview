@@ -3,16 +3,16 @@
 	display: none;
 }
 
+.tabs-container.tabstats {
+	margin-right: 5px;
+}
+
 .tabstats #tabs {
 	margin-left: 25%;
 }
 
 .tabstats #tabs .tab {
 	float: right;
-}
-
-.tabstats #tabs .tab:first-child {
-	margin-right: 5px;
 }
 
 #viewprofile .tabstats {
@@ -83,17 +83,18 @@
 }
 
 @media only screen and (max-width: 700px) {
+	.tabs-container.tabstats {
+		margin-right: -5px;
+	}
+	
 	.tabstats #tabs {
 		margin-left: 200px;
 	}
 	
 	.tabstats #tabs .tab a {
 		border-radius: 0;
-		margin: 1px 0 0 0;
-	}
-	
-	.tabstats #tabs .tab:first-child {
-		margin-right: -5px;
+		margin-right: 0;
+		margin-left: 1px;
 	}
 	
 	#viewprofile .bg1 {
