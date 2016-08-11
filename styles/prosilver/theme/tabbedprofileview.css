@@ -12,7 +12,7 @@
 }
 
 .tabstats #tabs .tab:first-child {
-	margin-right: 3px;
+	margin-right: 5px;
 }
 
 #viewprofile .tabstats {
@@ -45,15 +45,12 @@
 
 #viewprofile dl.profile-details dt {
 	margin: 0 0 2px 0;
-	width: 100%;
-	text-align: center;
-	font-weight: bold;
+	float: left;
+	width: auto;
 }
 
 #viewprofile dl.profile-details dd {
 	margin: 0 0 5px 0;
-	width: 100%;
-	text-align: center;
 }
 
 #viewprofile dd select {
@@ -79,6 +76,12 @@
 	max-width: 100% !important;
 }
 
+@media only screen and (max-width: 1000px) {
+	#viewprofile dd select {
+		width: 115px;
+	}
+}
+
 @media only screen and (max-width: 700px) {
 	.tabstats #tabs {
 		margin-left: 200px;
@@ -88,18 +91,31 @@
 		border-radius: 0;
 		margin: 1px 0 0 0;
 	}
+	
 	.tabstats #tabs .tab:first-child {
-		margin-right: -3px;
+		margin-right: -5px;
 	}
-
+	
 	#viewprofile .bg1 {
 		width: 200px;
-		margin: 0;
-		margin-right: 10px;
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+	
+	#viewprofile dl.profile-details dt {
+		text-align: center;
+		width: 100%;
+		font-weight: bold;
 	}
 	
 	#viewprofile dl.profile-details dd {
-		margin: 0;
+		text-align: center;
+		width: 100%;
+	}
+	
+	#viewprofile .bg2 {
+		margin-left: -5px;
+		margin-right: -5px;
 	}
 	
 	#viewprofile .bg2 dl.details dt {
@@ -108,13 +124,12 @@
 		text-align: center;
 		font-weight: bold;
 	}
-
+	
 	#viewprofile .bg2 dl.details dd {
 		margin: 0 0 5px 0;
 		width: 100%;
 		text-align: center;
 	}
-
 }
 
 @media only screen and (max-width: 475px) {
@@ -124,8 +139,6 @@
 
 	#viewprofile .bg1 {
 		width: 150px;
-		margin: 0;
-		margin-right: 10px;
 	}
 }
 
