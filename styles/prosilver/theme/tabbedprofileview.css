@@ -100,7 +100,7 @@
 	#viewprofile .bg1 {
 		width: 200px;
 		margin-left: -5px;
-		margin-right: -5px;
+		margin-right: -4px;
 	}
 	
 	#viewprofile dl.profile-details dt {
@@ -112,11 +112,6 @@
 	#viewprofile dl.profile-details dd {
 		text-align: center;
 		width: 100%;
-	}
-	
-	#viewprofile .bg2 {
-		margin-left: -5px;
-		margin-right: -5px;
 	}
 	
 	#viewprofile .bg2 dl.details dt {
@@ -137,7 +132,7 @@
 	.tabstats #tabs {
 		margin-left: 100px;
 	}
-
+	
 	#viewprofile .bg1 {
 		width: 150px;
 	}
