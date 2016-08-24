@@ -57,6 +57,10 @@
 	width: 150px;
 }
 
+#viewprofile .bg2 dl.details {
+	font-size: 1em;
+}
+
 #viewprofile .bg2 dl.details dt {
 	width: 40%;
 	text-align: right;
